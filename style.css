@@ -1,29 +1,42 @@
-h1 {
-    margin-left: 650px;
-    font-family: 'Roboto Mono', monospace;
-}
+ h1 {
+     margin-left: 650px;
+     font-family: 'Roboto Mono', monospace;
+ }
 
-li {
-    display: flex;
-    margin-top: -100px;
-    font-family: 'Roboto Mono', monospace;
+ li {
+     display: inline;
+     justify-content: space-around;
+     margin: 10px;
+     font-family: 'Roboto Mono', monospace;
+ }
 
-}
 
-form {
-    display: flex;
-    margin-top: 100px;
-    margin-left: 700px;
-}
+ }
 
-img {
-    height: 450px;
-    width: 500px;
-    margin-left: 500px;
-}
+ form {
+     display: flex;
+     margin-top: 100px;
+     margin-left: 700px;
+ }
 
-p {
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-}
+ img {
+     height: 450px;
+     width: 500px;
+     margin-left: 500px;
+ }
+
+ p {
+     display: flex;
+     justify-content: center;
+     font-family: 'Roboto Mono', monospace;
+ }
+
+ section {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ @media quairy (max-width: 650px) {
+     margin-top: 15px;
+     width: 100%;
+     position: relative;
