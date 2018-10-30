@@ -1,44 +1,123 @@
-/*Layout*/
+/*Background and responsivity*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        max-width: 100%;
+        background-image: url(https://cdn.pixabay.com/photo/2017/05/15/07/15/pavement-2313860_1280.jpg);
+    }
+
+}
 
 body {
-    background-color: yellowgreen;
+    max-width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/15/07/15/pavement-2313860_1280.jpg);
 }
 
-/*Body*/
+/*Header*/
+
+.flexnav {
+    display: flex;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: aquamarine;
+    border: solid;
+}
+
+.nav-link {
+    font-family: 'Spicy Rice', cursive;
+    color: black;
+    padding: 10px;
+}
+
+/*body*/
 h1 {
-    margin-left: 650px;
-    font-family: 'Roboto Mono', monospace;
-}
 
-li {
-    display: inline;
-    justify-content: space-around;
-    margin: 10px;
-    font-family: 'Roboto Mono', monospace;
-}
+    justify-content: space-around, 200px;
+    font-family: 'Spicy Rice', cursive;
+    background-color: aquamarine;
+    text-decoration-color: black;
+    border: solid;
+    text-align: center;
+    margin-top: 50px;
 
+}
 
 form {
     display: flex;
-    margin-top: 100px;
     margin-left: 625px;
+    padding-bottom: 20px;
 }
 
-img {
-    height: 450px;
-    width: 500px;
-    margin-left: 500px;
+input {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
 }
 
 p {
     display: flex;
     justify-content: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Spicy Rice', cursive;
+    size: 50px;
+    background-color: aquamarine;
+    border: solid;
+    border-color: black;
+    text-align: center;
+    padding: 10px;
 }
 
-section {
+.paragraph {
+    padding: 10px;
+}
+
+iframe {
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+input {
+    border-style: solid;
+    border-color: black;
+}
+
+.opt-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
-@media (max-width: 600px) {}
+.Option {
+    background-color: aquamarine;
+    border: solid;
+    list-style-type: none;
+    font-family: 'Spicy Rice', cursive;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: white;
+    border: solid;
+    color: black;
+    border-radius: 5px;
+}
+
+a {
+    color: blue;
+}

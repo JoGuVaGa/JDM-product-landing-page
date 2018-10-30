@@ -7,56 +7,91 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
 </head>
+<header id="header">
+    <img id="header-img" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Nissan-logo.svg/2000px-Nissan-logo.svg.png">
+    <nav id="nav-bar">
+        <ul class="flexnav">
+            <li><a class="nav-link" href="#Information about JDM cars">Information about JDM cars</a></li>
+            <li><a class="nav-link" href="#Best JDM cars to buy">Best JDM cars to buy</a></li>
+            <li><a class="nav-link" href="#video">Video</a></li>
+            <li><a class="nav-link" href="#Delivery options">Delivery options</a></li>
+        </ul>
+    </nav>
+</header>
 
 <body>
+    <h1>
+        <ion-icon name="car"></ion-icon>JDM Cars delivery<ion-icon name="car"></ion-icon>
+    </h1>
+    <ion-icon name="car"></ion-icon>
 
-    <header id="header">
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#Best JDM cars to buy"> Best JDM cars to buy</a></li>
-                <li><a class="nav-link" href="#Cars"> Cars</a></li>
-                <li><a class="nav-link" href="#What is JDM"> What is JDM</a></li>
-                <li><a class="nav-link" href="#video">An awesome video</a></li>
-            </ul>
-        </nav>
-        <img id="header-img" src="https://image.freepik.com/free-photo/back-car-lights_2221-186.jpg">
 
-        <h1>JDM Cars</h1>
-
-    </header>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input type="email" name="email" id="email" class="inputfield" placeholder="Email">
-        <button>
-            <input type="submit" id="submit"></button>
+
+        <input type="submit" id="submit">
     </form>
+    <div class="paragraph">
+        <section id="Information about JDM cars">
+            <p> JDM stands for " Japanese Domestic Market" and it refers to japans home market for vehicles.</p>
+        </section>
+    </div>
+    <div class="paragraph">
+        <section id="Information about JDM cars">
+            <p>The most popular JDM cars at the moment are Subaru (Impreza WRX Sti), Toyota (Supra, AE86), Honda (Civic
+                type R, NSX and S2000), Nissan (Skyline Gt-R, 300ZX and 350Z), Mazda (RX-7 and MX-5) and Mitsubishi
+                (Lancer).</p>
+        </section>
+    </div>
+    <div class="paragraph">
+        <section id="Best JDM cars to buy">
+            <p>You can fin the top 10 JDM cars to buy <a href="http://www.jdmauctionwatch.com/the-10-best-jdm-cars-you-can-buy-right-now/"
+                    target="_blank"> at this link</a></p>
 
-    <section id="What is JDM">
-        <p> JDM stands for " Japanese Domestic Market" and it refers to japans home market for vehicles.</p>
-    </section>
-
-
-
-    <section id="Cars">
-        <p>The most popular JDM cars at the moment are Subaru (Impreza WRX Sti), Toyota (Supra, AE86), Honda (Civic
-            type R, NSX and S2000), Nissan (Skyline Gt-R, 300ZX and 350Z), Mazda (RX-7 and MX-5) and Mitsubishi
-            (Lancer).</p>
-    </section>
-
-    <section id="Best JDM cars to buy">
-        <p>You can fin the top 10 JDM cars to buy <a href="http://www.jdmauctionwatch.com/the-10-best-jdm-cars-you-can-buy-right-now/"
-                target="_blank"> at this link</a></p>
-    </section>
+        </section>
+    </div>
 
     <section>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Yii_c2NLSck" frameborder="0"
+        <iframe id="video" width="600" height="315" src="https://www.youtube.com/embed/Yii_c2NLSck" frameborder="0"
             allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </section>
+    <div class="opt-container">
+        <section id="Delivery options">
+            <div class="Option">
+                <h2> Poor mans delivery</h2>
+                <li>
+                <li>Price: 1500$</li>
+                <li>Delivery time: 4-5 weeks</li>
+                <li>Bonuses: You get an free Wunderbaum</li>
+                <button class="btn">I want this</button>
+            </div>
+        </section>
+        <section id="Delivery options">
+            <div class="Option">
+                <h2> Regular delivery</h2>
+                <li> Price: 3000$<li>
+                <li> Delivery time: 3-4 weeks</li>
+                <li>Bonuses: You get an batman steering wheel cover</li>
+                <button class="btn">I want this</button>
+            </div>
+        </section>
 
+        <section id="Delivery options">
+            <div class="Option">
+                <h2> Premium delivery</h2>
+                <li>Prise: 6000$</li>
+                <li> Delivery time: 2-3 weeks</li>
+                <li>Bonuses: You get to choose what 5 things that you want from our goodie bag.
+                </li>
+                <button class="btn">I want this</button>
+            </div>
+        </section>
+    </div>
 </body>
 
-
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
 
 </html>
