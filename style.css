@@ -29,13 +29,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: gray;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
-    background-color: aquamarine;
     border: solid;
+
 }
 
 .nav-link {
@@ -49,8 +49,7 @@ h1 {
 
     justify-content: space-around, 200px;
     font-family: 'Spicy Rice', cursive;
-    background-color: aquamarine;
-    text-decoration-color: black;
+    background-color: gray;
     border: solid;
     text-align: center;
     margin-top: 50px;
@@ -74,7 +73,7 @@ p {
     justify-content: center;
     font-family: 'Spicy Rice', cursive;
     size: 50px;
-    background-color: aquamarine;
+    background-color: gray;
     border: solid;
     border-color: black;
     text-align: center;
@@ -103,7 +102,7 @@ input {
 }
 
 .Option {
-    background-color: aquamarine;
+    background-color: gray;
     border: solid;
     list-style-type: none;
     font-family: 'Spicy Rice', cursive;
